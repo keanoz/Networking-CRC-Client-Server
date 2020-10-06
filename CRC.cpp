@@ -1,7 +1,7 @@
 #include <iostream>
 #include "CRC.h"
 
-const uint64_t CRC64::m_polynomial = 0xC96C5795D7870F42ull;
+const uint64_t CRC64::m_polynomial = 0x42F0E1EBA9EA3693ull;
 
 CRC::CRC()
 {}
