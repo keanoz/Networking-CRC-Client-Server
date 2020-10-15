@@ -1,7 +1,7 @@
 CXX=g++
 CXXOPTIMIZE= -O2
 CXXFLAGS= -g -Wall -pthread -std=c++11 $(CXXOPTIMIZE)
-USERID=EnterYourUID
+USERID=EnterYour_UID_Here
 CLASSES=
 
 all: server client
