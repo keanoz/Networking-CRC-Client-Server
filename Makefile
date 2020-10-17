@@ -7,10 +7,10 @@ CLASSES=
 all: server client
 
 server: $(CLASSES)
-	$(CXX) -o $@ $^ $(CXXFLAGS) $@.cpp CRC64.cpp
+	$(CXX) -o $@ $^ $(CXXFLAGS) $@.cpp CRC.cpp
 
 client: $(CLASSES)
-	$(CXX) -o $@ $^ $(CXXFLAGS) $@.cpp CRC64.cpp
+	$(CXX) -o $@ $^ $(CXXFLAGS) $@.cpp CRC.cpp
 
 clean:
 	rm -rf *.o *~ *.gch *.swp *.dSYM server client *.tar.gz
